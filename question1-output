@@ -1,0 +1,15 @@
+ROL - Rotate Left without Carry
+Original: 10110110
+After rotation 1 : 01101101
+After rotation 2 : 11011010
+Final result: 11011010
+Unsigned decimal: 218
+
+RCL - Rotate Left with Carry
+Original: 10110110
+Initial carry: 0
+After rotation 1 : 01101100 Carry = 1
+After rotation 2 : 11011001 Carry = 0
+Final result: 11011001
+Final carry: 0
+Unsigned decimal: 217
