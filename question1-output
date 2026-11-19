@@ -1,15 +1,17 @@
-ROL - Rotate Left without Carry
-Original: 10110110
-After rotation 1 : 01101101
-After rotation 2 : 11011010
-Final result: 11011010
-Unsigned decimal: 218
+a) (45) - (+19)
+First operand: 00101101
+Second operand: 00010011
+2's complement of second operand: 11101101
+Final binary result: 00011010
+Decimal result: 26
+Overflow: No
 
-RCL - Rotate Left with Carry
-Original: 10110110
-Initial carry: 0
-After rotation 1 : 01101100 Carry = 1
-After rotation 2 : 11011001 Carry = 0
-Final result: 11011001
-Final carry: 0
-Unsigned decimal: 217
+b) (-35) - (-12)
+First operand: 11011101
+Second operand: 11110100
+2's complement of second operand: 00001100
+Final binary result: 11101001
+Decimal result: -23
+Overflow: No
+
+    
